@@ -34,7 +34,7 @@ const NavMenu = () => {
           <li className="ml-[20px] rounded-sm">
             <a
               href=""
-              className=" text-[12px] uppercase text-bold bg-[--soft-red] rounded-[5px] px-[15px] py-[10px] text-white"
+              className="text-[12px] uppercase text-bold bg-[--soft-red] rounded-[5px] p-[10px] text-white"
             >
               Login
             </a>
