@@ -1,12 +1,32 @@
-import React from "react";
-import { logo } from "../assets";
+import React, { useState } from "react";
+import { logo, hamburger } from "../assets";
 
 const NavMenu = () => {
+  const [openNavigation, setOpenNavigation] = useState(false);
+
+  const toggleNavigation = () => {
+    if (openNavigation) {
+      setOpenNavigation(false);
+    } else {
+      setOpenNavigation(true);
+      console.log("working");
+    }
+  };
   return (
     <nav className="flex justify-between lg:mt-[30px]">
       <img src={logo} width={150} height={1} alt="Logo" />
+      <img
+        src={hamburger}
+        onClick={toggleNavigation}
+        className="lg:hidden bg-white bg-clip-content"
+        alt=""
+      />
       <div>
-        <ul className="flex">
+        <ul
+          className={`lg:flex flex ${
+            openNavigation ? "lg:flex flex" : "hidden"
+          }`}
+        >
           <li className="tracking-tight">
             <a
               href=""

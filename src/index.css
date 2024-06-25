@@ -4,11 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 * {
     font-family: "Rubik", sans-serif;
-    overflow: hidden;
-
 }
 
 :root {
@@ -26,4 +23,38 @@
 
 .text-size {
     font-size: 18px;
+}
+
+.active-tabs {
+    position: relative;
+}
+
+.active-tabs::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -17px;
+    left: -18px;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 1px;
+    background: var(--soft-red);
+    border-radius: 5px;
+}
+
+.active-tabs-3 {
+    position: relative;
+}
+
+.active-tabs-3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -17px;
+    left: -18px;
+    transform: translateX(-12px);
+    width: 120px;
+    height: 1px;
+    background: var(--soft-red);
+    border-radius: 5px;
 }
