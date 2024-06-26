@@ -15,7 +15,7 @@ const Features = () => {
     setToggleState(index);
   }; */
   return (
-    <section className="mt-[30px] text-center justify-center m-auto">
+    <section className="mt-[30px] text-center justify-center m-auto lg:px-[100px]">
       <h1 className="text-[20px] font-semibold">Features</h1>
       <p className="text-[--Grayish-Blue] text-[12px] mt-[5px] w-[350px] text-center m-auto">
         Our aim is to make it quick and easy for you to access your favorite

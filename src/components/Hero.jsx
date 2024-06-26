@@ -3,7 +3,7 @@ import { absoluteBg, heroImg } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="flex justify-between">
+    <section className="flex justify-between lg:px-[100px]">
       <div className="mt-[150px]">
         <h1 className="text-[40px] font-bold">
           A Simple Bookmark <br /> Manager

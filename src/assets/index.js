@@ -11,6 +11,8 @@ import Features3 from "./illustration-features-tab-3.svg";
 import chrome from "./logo-chrome.svg";
 import firefox from "./logo-firefox.svg";
 import opera from "./logo-opera.svg";
+import facebook from "./icon-facebook.svg";
+import twitter from "./icon-twitter.svg";
 
 const features = {};
 
@@ -28,4 +30,6 @@ export {
   chrome,
   firefox,
   opera,
+  facebook,
+  twitter,
 };

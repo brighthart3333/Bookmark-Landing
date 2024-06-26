@@ -3,7 +3,7 @@ import { chrome, dots, firefox, opera } from "../assets";
 
 const Download = () => {
   return (
-    <section className="mt-[50px] text-center justify-center items-center m-auto">
+    <section className="mt-[50px] text-center justify-center items-center m-auto lg:px-[100px]">
       <h1 className="text-[20px] font-semibold">Download</h1>
       <p className="text-[--Grayish-Blue] text-[12px] mt-[5px] w-[350px] text-center m-auto">
         We've got more browsers in the pipeline. Please do let us know if you've

@@ -13,7 +13,7 @@ const NavMenu = () => {
     }
   };
   return (
-    <nav className="flex justify-between lg:mt-[30px]">
+    <nav className="flex justify-between lg:mt-[30px] lg:px-[100px]">
       <img src={logo} width={150} height={1} alt="Logo" />
       <img
         src={hamburger}
