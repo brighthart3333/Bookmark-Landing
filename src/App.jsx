@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import Download from "./components/Download";
 import Faqs from "./components/Faqs";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Download />
       <Faqs />
       <Newsletter />
+      <Footer />
     </div>
   );
 };

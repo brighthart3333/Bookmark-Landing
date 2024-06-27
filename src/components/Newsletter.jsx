@@ -10,14 +10,14 @@ const Newsletter = () => {
         Stay up-to-date with what <br /> we're doing
       </h1>
 
-      <div>
+      <div className="justify-center items-center">
         <input
           className="rounded-[5px] text-[15px] py-[3px] placeholder:text-[10px] pl-[10px] border-none outline-none"
           placeholder="Enter your email address"
-          type="text"
+          type="email"
         />
         <a
-          className="ml-[10px] bg-[--soft-red] text-white py-[9px] px-[10px] rounded-[5px] text-[10px]"
+          className="ml-[10px] bg-[--soft-red] text-white pt-[9px] pb-[7px] px-[10px] rounded-[5px] text-[10px]"
           href="#"
         >
           Contact Us
